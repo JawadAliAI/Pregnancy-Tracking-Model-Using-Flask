@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pregnancy Tracker- Pregnancy Care Medical Bootstrap 5 Template</title>
+
+  <!-- ::::::::::::::Favicon icon::::::::::::::-->
+  <link rel="shortcut icon" href="../static/images/favicon.ico" type="image/png">
+
+  <!-- ::::::::::::::All CSS Files here :::::::::::::: -->
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="../static/css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/css/vendor/icofont.min.css">
+  <link rel="stylesheet" href="../static/css/vendor/jquery-ui.min.css">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="../static/css/plugins/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../static/css/plugins/animate.min.css">
+  <link rel="stylesheet" href="../static/css/plugins/venobox.min.css">
+
+  <!--Prediction JS-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Include jQuery -->
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="../static/css/style.css">
+
+  <!-- Use the minified version files listed below for better performance and remove the files listed above -->
+  <!-- <link rel="stylesheet" href="../static/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="../static/css/plugins/plugins.min.css">
+    <link rel="stylesheet" href="../static/css/style.min.css"> -->
+
+  <style>
+    /* Center the form and increase its width */
+    .book-form {
+      margin: 50px auto;
+      /* Add spacing above the form */
+      max-width: 80%;
+      /* Increase width to 80% of the page */
+      text-align: center;
+      /* Center-align the text */
+      background-color: #f9f9ff;
+      /* Light background color for the form */
+      padding: 30px;
+      /* Add padding inside the form */
+      border-radius: 10px;
+      /* Add rounded corners for aesthetics */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      /* Add subtle shadow */
+    }
+
+    /* Style the heading */
+    .book-form h3 {
+      text-align: center;
+      margin-bottom: 20px;
+      /* Add space below the heading */
+      font-size: 24px;
+      /* Adjust font size */
+      color: #333;
+      /* Darker text color */
+    }
+
+    /* Adjust row spacing */
+    .book-form .row {
+      margin-bottom: 20px;
+      /* Add space between rows */
+    }
+
+    /* Add a larger background for the form area */
+    .form-container {
+      background-color: #eaf0ff;
+      /* Light blue background */
+      padding: 50px 0;
+      /* Add vertical padding */
+    }
+  </style>
+
+
+
+
+</head>
+
+<body>
+
+  <main class="main-wrapper">
+
+    <!-- .....:::::: Start Header Section :::::.... -->
+    <!-- .....:::::: Start Header Section :::::.... -->
+    <header class="header-section sticky-header d-none d-xl-block section-fluid-185">
+      <div class="header-wrapper">
+        <div class="container-fluid">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-auto">
+              <!-- Start Header Logo -->
+              <a href="/" class="header-logo">
+                <img src="../static/images/logo/logo.png" alt="">
+              </a>
+              <!-- End Header Logo -->
+            </div>
+            <div class="col-auto d-flex align-items-center">
+              <!-- Start Header Menu -->
+              <ul class="header-nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="/#about-section">About Us</a></li>
+                <li class="has-dropdown">
+                  <a href="/#service-section">Service</a>
+                  <!-- <ul class="submenu">
+                    <li><a href="service-list.html">Services</a></li>
+                    <li><a href="service-details.html">Service Details</a></li>
+                  </ul> -->
+                </li>
+                <li class="has-dropdown">
+                  <a href="/#case-section">Cases</a>
+                  <ul class="submenu">
+                    <!-- <li><a href="case-list.html">Cases</a></li>
+                    <li><a href="cases-details.html">Cases Details</a></li>
+                    <li><a href="faq.html">FAQ</a></li> -->
+                    <!-- <li><a href="404-error.html">404 Page</a></li> -->
+                  </ul>
+                </li>
+                <li class="has-dropdown">
+                  <a href="/#blog-section">Blog</a>
+                </li>
+                <li><a href="/tracking">Tracking</a></li>
+              </ul>
+              <!-- End Header Menu -->
+
+              <div class="header-btn-link text-end">
+                <a href="/contact" class="btn btn-lg btn-default-outline-alt btn-animate"><span>Book
+                    Appoinment</span></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- .....:::::: End Header Section :::::.... -->
+
+    <!-- ...::: Start Breadcrumb Section :::... -->
+    <div class="breadcrumb-section breadcrumb-bg">
+      <div class="box-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="container text-center">
+                <h2 class="title">Pregrancy Tracking</h2>
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Tracking</li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Start Breadcrumb Shape -->
+      <div class="breadcrumb-shape breadcrumb-shape-outline breadcrumb-shape-outline-1 animate-zoom-in-out"></div>
+      <div class="breadcrumb-shape breadcrumb-shape-outline breadcrumb-shape-outline-2 animate-zoom-in-out"></div>
+      <div class="breadcrumb-shape breadcrumb-shape-outline breadcrumb-shape-outline-3 animate-zoom-in-out"></div>
+      <div class="breadcrumb-shape breadcrumb-shape-outline breadcrumb-shape-outline-4 animate-zoom-in-out"></div>
+      <div class="breadcrumb-shape breadcrumb-shape-fill breadcrumb-shape-fill-1 animate-zoom-in-out"></div>
+      <div class="breadcrumb-shape breadcrumb-shape-fill breadcrumb-shape-fill-2 animate-zoom-in-out"></div>
+      <!-- End Breadcrumb Shape -->
+    </div>
+    <!-- ...::: End Breadcrumb Section :::... -->
+
+    <!-- Start Book Form -->
+
+    <div class="book-form book-form-3">
+      <h3 class="title">Prediction Form<span>Enter the details below</span></h3>
+      <form id="predictionForm" class="default-form-group" action="#" method="post">
+        <div class="row mb-n20">
+          <!-- Age Field -->
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="age" style="display: block; text-align: left;">Age:</label>
+              <input type="number" id="age" name="age" step="0.01" value="35.0" required>
+            </div>
+          </div>
+          <!-- Weight Field -->
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="weight" style="display: block; text-align: left;">Weight (kg):</label>
+              <input type="number" id="weight" name="weight" step="0.01" value="94.24" required>
+            </div>
+          </div>
+          <!-- Height Field -->
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="height" style="display: block; text-align: left;">Height (cm):</label>
+              <input type="number" id="height" name="height" step="0.01" value="164.32" required>
+            </div>
+          </div>
+          <!-- BMI Field -->
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="bmi" style="display: block; text-align: left;">BMI:</label>
+              <input type="number" id="bmi" name="bmi" step="0.01" value="34.9" required>
+            </div>
+          </div>
+          <!-- Gestational Week Field -->
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="gestational_week" style="display: block; text-align: left;">Gestational Week:</label>
+              <input type="number" id="gestational_week" name="gestational_week" step="0.01" value="31.0" required>
+            </div>
+          </div>
+          <!-- Contractions Field -->
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="contractions" style="display: block; text-align: left;">Contractions:</label>
+              <input type="number" id="contractions" name="contractions" step="0.01" value="0.0" required>
+            </div>
+          </div>
+          <!-- Mood Changes Field -->
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="mood_changes" style="display: block; text-align: left;">Mood Changes:</label>
+              <input type="number" id="mood_changes" name="mood_changes" step="0.01" value="0.0" required>
+            </div>
+          </div>
+          <!-- Symptoms Field -->
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="symptoms" style="display: block; text-align: left;">Symptoms:</label>
+              <input type="number" id="symptoms" name="symptoms" step="0.01" value="1.0" required>
+            </div>
+          </div>
+          <!-- Sleep Patterns Field -->
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="sleep_patterns" style="display: block; text-align: left;">Sleep Patterns:</label>
+              <input type="number" id="sleep_patterns" name="sleep_patterns" step="0.01" value="1.0" required>
+            </div>
+          </div>
+          <!-- Dietary Habits Field -->
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="dietary_habits" style="display: block; text-align: left;">Dietary Habits:</label>
+              <input type="number" id="dietary_habits" name="dietary_habits" step="0.01" value="1.0" required>
+            </div>
+          </div>
+          <!-- Stress Levels -->
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="stress_level_low" style="display: block; text-align: left;">Stress Level: Low</label>
+              <input type="checkbox" id="stress_level_low" name="stress_level_low" value="1" checked>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="stress_level_moderate" style="display: block; text-align: left;">Stress Level:
+                Moderate</label>
+              <input type="checkbox" id="stress_level_moderate" name="stress_level_moderate" value="1">
+            </div>
+          </div>
+          <!-- Amniotic Fluid Levels -->
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="amniotic_fluid_low" style="display: block; text-align: left;">Amniotic Fluid: Low</label>
+              <input type="checkbox" id="amniotic_fluid_low" name="amniotic_fluid_low" value="1" checked>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="amniotic_fluid_normal" style="display: block; text-align: left;">Amniotic Fluid:
+                Normal</label>
+              <input type="checkbox" id="amniotic_fluid_normal" name="amniotic_fluid_normal" value="1">
+            </div>
+          </div>
+          <!-- Fatigue Levels -->
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="fatigue_low" style="display: block; text-align: left;">Fatigue: Low</label>
+              <input type="checkbox" id="fatigue_low" name="fatigue_low" value="1">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="fatigue_moderate" style="display: block; text-align: left;">Fatigue: Moderate</label>
+              <input type="checkbox" id="fatigue_moderate" name="fatigue_moderate" value="1">
+            </div>
+          </div>
+          <!-- Days Since LMP -->
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="days_since_lmp" style="display: block; text-align: left;">Days Since LMP:</label>
+              <input type="number" id="days_since_lmp" name="days_since_lmp" value="147" required>
+            </div>
+          </div>
+          <!-- Weeks of Pregnancy -->
+          <div class="col-12 col-md-6 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="weeks_of_pregnancy" style="display: block; text-align: left;">Weeks of Pregnancy:</label>
+              <input type="number" id="weeks_of_pregnancy" name="weeks_of_pregnancy" value="21" required>
+            </div>
+          </div>
+          <!-- Total Pregnancy Duration -->
+          <div class="col-12 mb-20">
+            <div class="default-form-group-single-item border-dark-gray">
+              <label for="total_pregnancy_duration" style="display: block; text-align: left;">Total Pregnancy Duration
+                (Days):</label>
+              <input type="number" id="total_pregnancy_duration" name="total_pregnancy_duration" value="280" required>
+            </div>
+          </div>
+        </div>
+        <div class="submit-btn text-center">
+          <button type="submit" class="btn btn-lg btn-default-alt btn-animate icon-space-left">
+            <span>Predict <i class="icofont-double-right"></i></span>
+          </button>
+        </div>
+      </form>
+
+
+
+
+      <div id="results" style="display: none;">
+        <h2>Prediction Results</h2>
+      </div>
+
+
+      <script>
+        $(document).ready(function () {
+          $('#predictionForm').on('submit', function (event) {
+            event.preventDefault(); // Prevent form from submitting normally
+
+            $.ajax({
+              url: '/predict',
+              method: 'POST',
+              data: $(this).serialize(), // Serialize form data
+              success: function (response) {
+                // Display the results in the "results" div
+                if (response.error) {
+                  $('#results').html('<p style="color: red;">Error: ' + response.error + '</p>');
+                } else {
+                  $('#results').html(
+                    '<h2 style="text-decoration: underline; text-shadow: #333;padding-top: 5%; padding-bottom: 5%; " >Prediction Results</h2>' +
+                    '<p><strong>Predicted days of Pregnancy:</strong> ' + response.predicted_weeks_of_pregnancy.toFixed(2) + '</p>' +
+                    '<p><strong>Predicted weeks of Pregnancy:</strong> ' + (response.predicted_additional_metric !== null ? response.predicted_additional_metric.toFixed(2) : 'N/A') + '</p>' +
+                    '<p><strong>Risk Assessment:</strong> ' + response.risk_assessment + '</p>' +
+                    '<p><strong>Water Breakage Likelihood:</strong> ' + response.water_breakage_likelihood + '</p>'
+                  );
+                }
+
+                // Show the results section
+                $('#results').show();
+              },
+              error: function () {
+                $('#results').html('<p style="color: red;">An error occurred while processing your request.</p>');
+                $('#results').show(); // Show the results section even if there's an error
+              }
+            });
+          });
+        });
+      </script>
+
+
+    </div>
+
+
+    <!-- End Book Form -->
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+    <!-- ...::: End Contact Section :::... -->
+
+
+
+
+
+
+
+
+
+
+    <!-- ...::: Start Footer Section :::... -->
+    <footer class="footer-section section-top-gap-200">
+      <!-- Start Footer Top Area -->
+      <div class="footer-top-area section-inner-padding-200">
+        <div class="footer-top-shape">
+          <img class="img-width" src="../static/images/background/footer-shape-bg.png" alt="">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="footer-top-box-wrapper">
+                <!-- Start Footer About -->
+                <div class="footer-top-single-item footer-about">
+                  <a href="index.html" class="logo">
+                    <img class="img-fluid" src="../static/images/logo/logo.png" alt="">
+                  </a>
+                  <p>Our pregnancy tracking web app helps you monitor your baby’s growth, access personalized tips, and
+                    stay organized with reminders—all from your browser. Simple, convenient, and supportive!</p>
+                  <form action="#" class="footer-form" method="post">
+                    <input type="email" placeholder="Enter email" required>
+                    <button type="submit">Subscribe <i class="icofont-double-right"></i></button>
+                  </form>
+                </div>
+                <!-- End Footer About -->
+                <!-- Start Footer Widget -->
+                <div class="footer-top-single-item footer-menu footer-widget">
+                  <h4 class="title">Services</h4>
+
+                  <ul class="footer-nav">
+                    <li><a href="/contact">Infant Activities</a></li>
+                    <li><a href="/contact">High Risk Pregnancy</a></li>
+                    <li><a href="/contact">Gynecological Services</a></li>
+                    <li><a href="/contact">Prenatal ultrasound</a></li>
+                    <li><a href="/contact">Fertility medication</a></li>
+                    <li><a href="/contact">Infant Activities</a></li>
+                  </ul>
+                </div>
+                <!-- End Footer Widget -->
+                <!-- Start Footer Widget -->
+                <div class="footer-top-single-item footer-social footer-widget">
+                  <h4 class="title">Follow Us</h4>
+
+                  <ul class="social-link-2">
+                    <li>
+                      <a href="https://example.com/" target="_blank">
+                        <span class="icon"><i class="icofont-facebook"></i></span>
+                        <span class="text">Facebook</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://example.com/" target="_blank">
+                        <span class="icon"><i class="icofont-twitter"></i></span>
+                        <span class="text">Twitter</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://example.com/" target="_blank">
+                        <span class="icon"><i class="icofont-instagram"></i></span>
+                        <span class="text">Instagram</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- End Footer Widget -->
+                <!-- Start Footer Widget -->
+                <div class="footer-top-single-item footer-contact footer-widget">
+                  <h4 class="title">Contact</h4>
+
+                  <div class="footer-info">
+                    <address class="footer-single-info">
+                      <span class="icon"><i class="icofont-google-map"></i></span>
+                      <span class="text">Address: Flat# 303 Mehran Complex E11/4</span>
+                    </address>
+                    <a href="tel:+923004220820" class="footer-single-info">
+                      <span class="icon"><i class="icofont-phone"></i></span>
+                      <span class="text">+923004220820</span>
+                    </a>
+                    <a href="mailto:badar@microstun.com" class="footer-single-info">
+                      <span class="icon"><i class="icofont-envelope"></i></span>
+                      <span class="text">badar@microstun.com</span>
+                    </a>
+                  </div>
+                </div>
+                <!-- End Footer Widget -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Footer Top Area -->
+
+      <!-- Start Footer BottomArea -->
+      <div class="footer-bottom-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="copyright-text text-center">
+                &copy; 2024 <a class="mark-color" href="/">Pregnancy Tracker</a>. Made with <i
+                  class="icofont-heart mark-color"></i> by <a target="_blank" rel="noopener" href="/"
+                  class="company-site" style="color: red;"> Deep Heart </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Footer Bottom Area-->
+    </footer>
+    <!-- ...::: End Footer Section :::... -->
+
+    <!-- material-scrolltop button -->
+    <button class="material-scrolltop" type="button"></button>
+  </main>
+
+  <!-- ::::::::::::::All JS Files here :::::::::::::: -->
+  <!-- Global Vendor, plugins JS -->
+  <script src="../static/js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="../static/js/vendor/jquery-3.6.0.min.js"></script>
+  <script src="../static/js/vendor/jquery-migrate-3.3.3.min.js"></script>
+  <script src="../static/js/vendor/popper.min.js"></script>
+  <script src="../static/js/vendor/bootstrap.min.js"></script>
+  <script src="../static/js/vendor/jquery-ui.min.js"></script>
+
+  <!--Plugins JS-->
+  <script src="../static/js/plugins/swiper-bundle.min.js"></script>
+  <script src="../static/js/plugins/circle-progress.min.js"></script>
+  <script src="../static/js/plugins/ajax-mail.js"></script>
+  <script src="../static/js/plugins/venobox.min.js"></script>
+  <script src="../static/js/plugins/material-scrolltop.js"></script>
+
+
+  <!-- Use the minified version files listed below for better performance and remove the files listed above -->
+  <!-- <script src="../../static/js/vendor/vendor.min.js"></script>
+  <script src="../../static/js/plugins/plugins.min.js"></script> -->
+
+  <!-- Main JS -->
+  <script src="../../static/js/main.js"></script>
+
+</body>
+
+</html>
